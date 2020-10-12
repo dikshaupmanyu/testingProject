@@ -96,7 +96,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
         redirect: 'follow'
       };
 
-      fetch("https://apis.tradetipsapp.com/api/tipFeature/tipUnPinForUser", requestOptions)
+      fetch("https://apistest.tradetipsapp.com/api/tipFeature/tipUnPinForUser", requestOptions)
         .then(response => response.json())
           .then(result => {
 
@@ -124,7 +124,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
       redirect: 'follow'
     };
 
-    fetch("https://apis.tradetipsapp.com/api/tipFeature/tipPinForUser", requestOptionsf)
+    fetch("https://apistest.tradetipsapp.com/api/tipFeature/tipPinForUser", requestOptionsf)
       .then(response => response.json())
         .then(result => {
 
@@ -152,7 +152,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
         redirect: 'follow'
       };
 
-      fetch("https://apis.tradetipsapp.com/api/tipFeature/tipLikeForUser", requestOptionsf)
+      fetch("https://apistest.tradetipsapp.com/api/tipFeature/tipLikeForUser", requestOptionsf)
         .then(response => response.json())
           .then(result => {
        
@@ -179,7 +179,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
         redirect: 'follow'
       };
 
-      fetch("https://apis.tradetipsapp.com/api/tipFeature/tipUnLikeForUser", requestOptions)
+      fetch("https://apistest.tradetipsapp.com/api/tipFeature/tipUnLikeForUser", requestOptions)
         .then(response => response.json())
           .then(result => {
 
@@ -211,7 +211,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
       redirect: 'follow'
     };
 
-    fetch("https://apis.tradetipsapp.com/api/tipCommentFlag/addCommentFlag", requestOptions)
+    fetch("https://apistest.tradetipsapp.com/api/tipCommentFlag/addCommentFlag", requestOptions)
       .then(response => response.json())
         .then(result => {
        
@@ -258,7 +258,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
           redirect: 'follow'
         };
 
-      fetch("https://apis.tradetipsapp.com/api/tipFeature/tipHideForUser", requestOptionsf)
+      fetch("https://apistest.tradetipsapp.com/api/tipFeature/tipHideForUser", requestOptionsf)
         .then(response => response.json())
           .then(result => {
 
@@ -296,7 +296,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
         redirect: 'follow'
       };
 
-      fetch("https://apis.tradetipsapp.com/api/comment/addCommentOnTip", requestOptions)
+      fetch("https://apistest.tradetipsapp.com/api/comment/addCommentOnTip", requestOptions)
         .then(response => response.json())
         .then(result => {
 
@@ -313,7 +313,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
           };
 
 
-        fetch("https://apis.tradetipsapp.com/api/comment/getCommentsByTipIdPagination", requestOptionst)
+        fetch("https://apistest.tradetipsapp.com/api/comment/getCommentsByTipIdPagination", requestOptionst)
           .then(response => response.json())
             .then(response => {
            
@@ -352,7 +352,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
         redirect: 'follow'
       };
 
-      const responseone = await fetch("https://apis.tradetipsapp.com/api/tip/getAllTipFeatureDetailsByTipId", requestOptions)
+      const responseone = await fetch("https://apistest.tradetipsapp.com/api/tip/getAllTipFeatureDetailsByTipId", requestOptions)
      
       const responsetwo = await responseone.json();
 
@@ -388,7 +388,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
       };
 
 
-      fetch("https://apis.tradetipsapp.com/api/comment/getCommentsByTipIdPagination", requestOptions)
+      fetch("https://apistest.tradetipsapp.com/api/comment/getCommentsByTipIdPagination", requestOptions)
       .then(response => response.json())
       .then(response => {
        // alert(response);

@@ -66,7 +66,7 @@ class player extends React.Component {
         redirect: 'follow'
       };
 
-      fetch("https://apis.tradetipsapp.com/api/stockDetail/addMultipleStock", requestOptions)
+      fetch("https://apistest.tradetipsapp.com/api/stockDetail/addMultipleStock", requestOptions)
         .then(response => response.text())
           .then(result => {
             if(result.length > 0){
@@ -97,7 +97,7 @@ class player extends React.Component {
         redirect: 'follow'
       };
 
-      var datahere = await fetch(`https://apis.tradetipsapp.com/api/stocksearchdetails/searchStockSymbol?stockSymbol=${data}`, requestOptions)
+      var datahere = await fetch(`https://apistest.tradetipsapp.com/api/stocksearchdetails/searchStockSymbol?stockSymbol=${data}`, requestOptions)
       const resdata = await datahere.json();
 
           var users = [];

@@ -49,7 +49,7 @@ var userStramData = urls.searchParams.get("streamdatatoken");
           redirect: 'follow'
         };
 
-      const response = await fetch(`https://apis.tradetipsapp.com/api/stockDetail/getAllStockOfUserByUserName?userName=${userid}`, requestOptions)
+      const response = await fetch(`https://apistest.tradetipsapp.com/api/stockDetail/getAllStockOfUserByUserName?userName=${userid}`, requestOptions)
 
       const result = await response.json();
          
@@ -78,7 +78,7 @@ var userStramData = urls.searchParams.get("streamdatatoken");
               redirect: 'follow'
             };
 
-            const responseone = await fetch(`https://apis.tradetipsapp.com/api/sectorNewsSentiment/getSentimentandSMAByStockSymbolResultSet`, requestOp);
+            const responseone = await fetch(`https://apistest.tradetipsapp.com/api/sectorNewsSentiment/getSentimentandSMAByStockSymbolResultSet`, requestOp);
 
             const responsetwo = await responseone.json();
 
@@ -112,7 +112,7 @@ var userStramData = urls.searchParams.get("streamdatatoken");
         redirect: 'follow'
       };
 
-      const responseone = await fetch("https://apis.tradetipsapp.com/api/tip/getAllTipFeaturePaginationForUser", requestOptions)
+      const responseone = await fetch("https://apistest.tradetipsapp.com/api/tip/getAllTipFeaturePaginationForUser", requestOptions)
      
       const responsetwo = await responseone.json();
        

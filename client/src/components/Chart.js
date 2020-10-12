@@ -121,7 +121,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
           };
 
 
-          fetch(`https://apis.tradetipsapp.com/api/getcsvfile/getstockjsonfile`, requestOp)
+          fetch(`https://apistest.tradetipsapp.com/api/getcsvfile/getstockjsonfile`, requestOp)
           .then(response => response.json())
           .then(results => {
         
@@ -174,7 +174,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
           };
 
 
-          fetch(`https://apis.tradetipsapp.com/api/getcsvfile/getstockjsonfile`, requestOp)
+          fetch(`https://apistest.tradetipsapp.com/api/getcsvfile/getstockjsonfile`, requestOp)
           .then(response => response.json())
           .then(results => {
              // alert("call data");
@@ -233,7 +233,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
           };
 
 
-          fetch(`https://apis.tradetipsapp.com/api/getcsvfile/getstockjsonfile`, requestOp)
+          fetch(`https://apistest.tradetipsapp.com/api/getcsvfile/getstockjsonfile`, requestOp)
           .then(response => response.json())
           .then(results => {
              // alert("call data");
@@ -292,7 +292,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
           };
 
 
-          fetch(`https://apis.tradetipsapp.com/api/getcsvfile/getstockjsonfile`, requestOp)
+          fetch(`https://apistest.tradetipsapp.com/api/getcsvfile/getstockjsonfile`, requestOp)
           .then(response => response.json())
           .then(results => {
              // alert("call data");

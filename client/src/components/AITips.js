@@ -67,7 +67,7 @@ const imagesPath = {
           redirect: 'follow'
         };
 
-        const response = await fetch(`https://apis.tradetipsapp.com/api/stockDetail/getAllStockOfUserByUserName?userName=${userid}`, requestOptions)
+        const response = await fetch(`https://apistest.tradetipsapp.com/api/stockDetail/getAllStockOfUserByUserName?userName=${userid}`, requestOptions)
 
         const result = await response.json();
 
@@ -160,7 +160,7 @@ const imagesPath = {
           };
 
 
-          const responseonek = await fetch(`https://apis.tradetipsapp.com/api/sectorNewsSentiment/getSentimentandSMAByStockSymbolResultSet`, requestOptions);
+          const responseonek = await fetch(`https://apistest.tradetipsapp.com/api/sectorNewsSentiment/getSentimentandSMAByStockSymbolResultSet`, requestOptions);
                  
           const responsetwok = await responseonek.json();
 

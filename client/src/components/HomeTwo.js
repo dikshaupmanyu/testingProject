@@ -139,7 +139,7 @@ const imagesPath = {
       };
 
 
-      fetch("https://apis.tradetipsapp.com/api/comment/getCommentsByTipIdPagination", requestOptions)
+      fetch("https://apistest.tradetipsapp.com/api/comment/getCommentsByTipIdPagination", requestOptions)
       .then(response => response.json())
       .then(response => {
        // alert(response);
@@ -174,7 +174,7 @@ const imagesPath = {
         redirect: 'follow'
       };
 
-      fetch("https://apis.tradetipsapp.com/api/tipFeature/tipLikeForUser", requestOptionsf)
+      fetch("https://apistest.tradetipsapp.com/api/tipFeature/tipLikeForUser", requestOptionsf)
         .then(response => response.json())
           .then(result => {
        
@@ -199,7 +199,7 @@ const imagesPath = {
         redirect: 'follow'
       };
 
-      fetch("https://apis.tradetipsapp.com/api/tipFeature/tipUnLikeForUser", requestOptions)
+      fetch("https://apistest.tradetipsapp.com/api/tipFeature/tipUnLikeForUser", requestOptions)
         .then(response => response.json())
           .then(result => {
 
@@ -224,7 +224,7 @@ const imagesPath = {
       redirect: 'follow'
     };
 
-    fetch("https://apis.tradetipsapp.com/api/tipFeature/tipPinForUser", requestOptionsf)
+    fetch("https://apistest.tradetipsapp.com/api/tipFeature/tipPinForUser", requestOptionsf)
       .then(response => response.json())
         .then(result => {
 
@@ -249,7 +249,7 @@ const imagesPath = {
         redirect: 'follow'
       };
 
-      fetch("https://apis.tradetipsapp.com/api/tipFeature/tipUnPinForUser", requestOptions)
+      fetch("https://apistest.tradetipsapp.com/api/tipFeature/tipUnPinForUser", requestOptions)
         .then(response => response.json())
           .then(result => {
 
@@ -277,7 +277,7 @@ const imagesPath = {
       redirect: 'follow'
     };
 
-    fetch("https://apis.tradetipsapp.com/api/tipCommentFlag/addCommentFlag", requestOptions)
+    fetch("https://apistest.tradetipsapp.com/api/tipCommentFlag/addCommentFlag", requestOptions)
       .then(response => response.json())
         .then(result => {
        
@@ -310,7 +310,7 @@ const imagesPath = {
           redirect: 'follow'
         };
 
-      fetch("https://apis.tradetipsapp.com/api/tipFeature/tipHideForUser", requestOptionsf)
+      fetch("https://apistest.tradetipsapp.com/api/tipFeature/tipHideForUser", requestOptionsf)
         .then(response => response.json())
           .then(result => {
 
@@ -342,7 +342,7 @@ const imagesPath = {
         redirect: 'follow'
       };
 
-      fetch("https://apis.tradetipsapp.com/api/comment/addCommentOnTip", requestOptions)
+      fetch("https://apistest.tradetipsapp.com/api/comment/addCommentOnTip", requestOptions)
         .then(response => response.json())
         .then(result => {
 
@@ -359,7 +359,7 @@ const imagesPath = {
           };
 
 
-        fetch("https://apis.tradetipsapp.com/api/comment/getCommentsByTipIdPagination", requestOptionst)
+        fetch("https://apistest.tradetipsapp.com/api/comment/getCommentsByTipIdPagination", requestOptionst)
           .then(response => response.json())
             .then(response => {
            
@@ -413,7 +413,7 @@ const imagesPath = {
 
                   <ul className="list-unstyled d-flex justify-content-between font-small text-muted mb-0" style={{margin: "0px" , padding:"0px"}} onClick={this.handleResult.bind(this, item.tip.id)} data-toggle="modal" data-target={`#exampleModal${item.tip.id}`}>
                    
-                     <li><img src={`https://apis.tradetipsapp.com/api/appUser/getImageByAppUserId?appUserId=${item.tip.appUser.id}`} onError={this.addDefaultSrc} alt="pic" width="50" height="50" class="rounded-circle" />&nbsp;&nbsp;<span>{item.tip.appUser.userName}</span></li>
+                     <li><img src={`https://apistest.tradetipsapp.com/api/appUser/getImageByAppUserId?appUserId=${item.tip.appUser.id}`} onError={this.addDefaultSrc} alt="pic" width="50" height="50" class="rounded-circle" />&nbsp;&nbsp;<span>{item.tip.appUser.userName}</span></li>
                       {
                         item.tip.stockSuggestion == "Buy" ?
                         <li className="suggestion"><span className="Buy">BUY</span></li>
@@ -429,7 +429,7 @@ const imagesPath = {
                      <div class="modal-content modal-xl" id="datamodel">
                       <div class="card-header modal-xl">
                         <ul className="list-unstyled d-flex justify-content-between font-small text-muted mb-0" style={{margin: "0px" , padding:"0px"}}>
-                          <li><img src={`https://apis.tradetipsapp.com/api/appUser/getImageByAppUserId?appUserId=${item.tip.appUser.id}`} onError={this.addDefaultSrc} alt="pic" width="50" height="50" class="rounded-circle" />&nbsp;&nbsp;<span>{item.tip.appUser.userName}</span></li>
+                          <li><img src={`https://apistest.tradetipsapp.com/api/appUser/getImageByAppUserId?appUserId=${item.tip.appUser.id}`} onError={this.addDefaultSrc} alt="pic" width="50" height="50" class="rounded-circle" />&nbsp;&nbsp;<span>{item.tip.appUser.userName}</span></li>
                             {
                               item.tip.stockSuggestion == "Buy" ?
                               <li className="suggestion"><span className="Buy">BUY</span></li>

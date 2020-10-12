@@ -118,7 +118,7 @@ class Tip extends Component {
       redirect: 'follow'
     };
 
-    fetch("https://apis.tradetipsapp.com/api/appUser/uploadUserImageByUserName", requestOptions)
+    fetch("https://apistest.tradetipsapp.com/api/appUser/uploadUserImageByUserName", requestOptions)
       .then(response => response.text())
       .then(result => console.log(result))
       .catch(error => console.log('error', error));
@@ -199,7 +199,7 @@ class Tip extends Component {
 
                               this.state.file == null ?
                               
-                              <img src={`https://apis.tradetipsapp.com/api/appUser/getImageByAppUserId?appUserId=${userMainid}`} alt="pic" width="150" height="150" class="rounded-circle" />  
+                              <img src={`https://apistest.tradetipsapp.com/api/appUser/getImageByAppUserId?appUserId=${userMainid}`} alt="pic" width="150" height="150" class="rounded-circle" />  
                               : <img src={this.state.file} alt="pic" width="150" height="150" class="rounded-circle" />
                             
                             }

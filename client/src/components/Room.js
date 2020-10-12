@@ -31,7 +31,7 @@ if(userToken){
   {
     id: userMainid,
     name: userid,
-    image: 'https://apis.tradetipsapp.com/api/appUser/getImageByAppUserId?appUserId='+userMainid
+    image: 'https://apistest.tradetipsapp.com/api/appUser/getImageByAppUserId?appUserId='+userMainid
   },
   userToken,
 )

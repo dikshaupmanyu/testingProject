@@ -92,7 +92,7 @@ var userid = urls.searchParams.get("uname");
         redirect: 'follow'
       };
 
-      var deletedata = await fetch("https://apis.tradetipsapp.com/api/stockDetail/deleteStock", requestOptions)
+      var deletedata = await fetch("https://apistest.tradetipsapp.com/api/stockDetail/deleteStock", requestOptions)
 
       var deletedatatwo = await deletedata.json();
 
